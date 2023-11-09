@@ -1,0 +1,407 @@
+repo_name: donaldww/graphql-flutter
+report_id: e578f35740addb38c157bdc3d249358c
+repo_type: Public
+timestamp: '2023-11-09T16:10:07+00:00'
+requested_by: micimize
+provider: github
+branch: master
+detected_tools_count: 32
+tools:
+- name: Dart
+  description: A new web programming language with libraries, a virtual machine, and
+    tools
+  website_url: https://www.dartlang.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1646/Twitter-02.png
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: packages/graphql/pubspec.yaml
+  last_updated_by: Zino Hofmann
+  last_updated_on: 2019-04-30 07:59:59.000000000 Z
+- name: Objective-C
+  description: The primary programming language you use when writing software for
+    OS X and iOS
+  website_url: https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1008/xcode.png
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source: Repo Metadata
+- name: Android SDK
+  description: An SDK that provides you the API libraries and developer tools necessary
+    to build, test, and debug apps for Android.
+  website_url: http://developer.android.com
+  version: '27.0'
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1010/m8jf0po4imu8t5eemjdd.png
+  detection_source_url: packages/graphql_flutter/example/android/app/build.gradle
+  detection_source: packages/graphql_flutter/example/android/app/build.gradle
+  last_updated_by: Zino Hofmann
+  last_updated_on: 2018-06-16 15:21:13.000000000 Z
+- name: Flutter
+  description: Cross-platform mobile framework from Google
+  website_url: https://flutter.io/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Cross-Platform Mobile Development
+  image_url: https://img.stackshare.io/service/7180/flutter-mark-square-100.png
+  detection_source: packages/graphql_flutter/pubspec.yaml
+  last_updated_by: micimize
+  last_updated_on: 2019-05-20 22:01:06.000000000 Z
+- name: CircleCI
+  description: Automate your development process quickly, safely, and at scale
+  website_url: https://circleci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg
+  detection_source: ".circleci/config.yml"
+  last_updated_by: Zino Hofmann
+  last_updated_on: 2019-04-30 07:59:59.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source: packages/graphql_flutter/example/android/gradlew.bat
+  last_updated_by: micimize
+  last_updated_on: 2019-05-20 17:35:34.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: packages/graphql/pubspec.yaml
+  last_updated_by: Zino Hofmann
+  last_updated_on: 2018-06-08 11:59:11.000000000 Z
+- name: Android OS
+  description: An open source mobile operating system by Google
+  website_url: https://www.android.com
+  version: '8.1'
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/9586/ZvmtaSXW_400x400.jpg
+  detection_source_url: packages/graphql_flutter/example/android/app/build.gradle
+  detection_source: packages/graphql_flutter/example/android/app/build.gradle
+  last_updated_by: Zino Hofmann
+  last_updated_on: 2018-06-16 15:21:13.000000000 Z
+- name: CocoaPods
+  description: A dependency manager for Swift and Objective-C Cocoa projects
+  website_url: https://cocoapods.org/
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: CocoaPods Packages
+  image_url: https://img.stackshare.io/service/2426/e1cbdef9d4b11484049a033886578e54_400x400.png
+  detection_source: examples/starwars/ios/Podfile.lock
+  last_updated_by: micimize
+  last_updated_on: 2019-05-20 17:35:34.000000000 Z
+- name: test
+  website_url: test
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/5477/no-img-open-source.png
+  detection_source: packages/graphql_flutter/pubspec.yaml
+  last_updated_by: Zino Hofmann
+  last_updated_on: 2019-04-30 07:59:59.000000000 Z
+- name: args
+  description: Library for defining parsers for parsing raw command-line arguments
+    into a set of options and values using GNU and POSIX style options
+  package_url: https://pub.dartlang.org/args
+  version: 1.5.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: examples/pubspec.lock
+  detection_source: packages/graphql/example/pubspec.yaml
+  last_updated_by: Maina Wycliffe
+  last_updated_on: 2019-05-01 00:43:00.000000000 Z
+- name: cupertino_icons
+  description: Default icons asset for Cupertino widgets based on Apple styled icons
+  package_url: https://pub.dartlang.org/cupertino_icons
+  version: 0.1.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: examples/pubspec.lock
+  detection_source: packages/graphql_flutter/example/pubspec.yaml
+  last_updated_by: Zino Hofmann
+  last_updated_on: 2018-06-16 15:21:13.000000000 Z
+- name: flutter
+  description: Visit flutter.io to get started
+  package_url: https://pub.dartlang.org/flutter
+  version: 0.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: examples/pubspec.lock
+  detection_source: packages/graphql_flutter/pubspec.yaml
+  last_updated_by: micimize
+  last_updated_on: 2019-05-20 22:01:06.000000000 Z
+- name: graphql
+  description: A stand-alone GraphQL client for Dart
+  package_url: https://pub.dartlang.org/graphql
+  version: 1.0.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: examples/pubspec.lock
+  detection_source: packages/graphql_flutter/pubspec.yaml
+  last_updated_by: micimize
+  last_updated_on: 2019-05-20 22:01:06.000000000 Z
+- name: graphql_flutter
+  description: A GraphQL client for Flutter
+  package_url: https://pub.dartlang.org/graphql_flutter
+  version: 1.0.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: examples/pubspec.lock
+  detection_source: packages/graphql_flutter/example/pubspec.yaml
+  last_updated_by: micimize
+  last_updated_on: 2019-05-20 22:01:06.000000000 Z
+- name: graphql_parser
+  description: Parses GraphQL queries and schemas
+  package_url: https://pub.dartlang.org/graphql_parser
+  version: 1.1.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: examples/pubspec.lock
+  detection_source: packages/graphql/pubspec.yaml
+  last_updated_by: Zino Hofmann
+  last_updated_on: 2019-04-30 07:59:59.000000000 Z
+- name: graphql_starwars_test_server
+  description: A stand-alone GraphQL test server built with angel dart
+  package_url: https://pub.dartlang.org/graphql_starwars_test_server
+  version: 0.0.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: examples/pubspec.lock
+  detection_source: examples/starwars/pubspec.yaml
+  last_updated_by: micimize
+  last_updated_on: 2019-05-20 22:01:06.000000000 Z
+- name: http
+  description: A composable
+  package_url: https://pub.dartlang.org/http
+  version: 0.12.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: examples/pubspec.lock
+  detection_source: packages/graphql/pubspec.yaml
+  last_updated_by: micimize
+  last_updated_on: 2019-04-27 18:33:08.000000000 Z
+  vulnerabilities:
+  - name: http before 0.13.3 vulnerable to header injection
+    cve_id: CVE-2020-35669
+    cve_url: https://github.com/advisories/GHSA-4rgh-jx4f-qfcq
+    detected_date: Nov 9
+    severity: moderate
+    first_patched: 0.13.3
+- name: http_parser
+  description: A platform-independent package for parsing and serializing HTTP formats
+  package_url: https://pub.dartlang.org/http_parser
+  version: 3.1.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: examples/pubspec.lock
+  detection_source: packages/graphql/pubspec.yaml
+  last_updated_by: micimize
+  last_updated_on: 2019-04-27 18:33:08.000000000 Z
+- name: meta
+  description: Annotations used to express developer intentions that can't otherwise
+    be deduced by statically analyzing source code
+  package_url: https://pub.dartlang.org/meta
+  version: 1.1.6
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: examples/pubspec.lock
+  detection_source: packages/graphql_flutter/pubspec.yaml
+  last_updated_by: Zino Hofmann
+  last_updated_on: 2018-09-01 22:49:11.000000000 Z
+- name: mime
+  description: Utilities for handling media
+  package_url: https://pub.dartlang.org/mime
+  version: 0.9.6
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: examples/pubspec.lock
+  detection_source: packages/graphql/pubspec.yaml
+  last_updated_by: TruongSinh Tran-Nguyen
+  last_updated_on: 2019-03-27 07:21:47.000000000 Z
+- name: mockito
+  description: A mock framework inspired by Mockito with APIs for Fakes
+  package_url: https://pub.dartlang.org/mockito
+  version: 4.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: packages/graphql/pubspec.lock
+  detection_source: packages/graphql_flutter/pubspec.yaml
+  last_updated_by: TruongSinh Tran-Nguyen
+  last_updated_on: 2019-03-27 02:34:50.000000000 Z
+- name: path
+  description: A string-based path manipulation library
+  package_url: https://pub.dartlang.org/path
+  version: 1.6.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: examples/pubspec.lock
+  detection_source: packages/graphql_flutter/pubspec.yaml
+  last_updated_by: TruongSinh Tran-Nguyen
+  last_updated_on: 2019-03-27 07:21:47.000000000 Z
+- name: path_provider
+  description: Flutter plugin for getting commonly used locations on host platform
+    file systems
+  package_url: https://pub.dartlang.org/path_provider
+  version: 1.1.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: examples/pubspec.lock
+  detection_source: packages/graphql_flutter/pubspec.yaml
+  last_updated_by: micimize
+  last_updated_on: 2019-05-20 17:35:34.000000000 Z
+- name: rxdart
+  description: RxDart is an implementation of the popular reactiveX api for asynchronous
+    programming
+  package_url: https://pub.dartlang.org/rxdart
+  version: 0.22.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: examples/pubspec.lock
+  detection_source: packages/graphql_flutter/pubspec.yaml
+  last_updated_by: dbrb
+  last_updated_on: 2019-05-18 14:24:00.000000000 Z
+- name: test
+  description: A full featured library for writing and running Dart tests across platforms
+  package_url: https://pub.dartlang.org/test
+  version: 1.6.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: examples/pubspec.lock
+  detection_source: packages/graphql_flutter/pubspec.yaml
+  last_updated_by: Zino Hofmann
+  last_updated_on: 2019-04-30 07:59:59.000000000 Z
+- name: test_coverage
+  description: Command line utility to run tests in Dart VM and collect coverage data
+  package_url: https://pub.dartlang.org/test_coverage
+  version: 0.2.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: packages/graphql/pubspec.lock
+  detection_source: packages/graphql/pubspec.yaml
+  last_updated_by: Zino Hofmann
+  last_updated_on: 2019-04-30 07:59:59.000000000 Z
+- name: uuid
+  description: RFC4122
+  package_url: https://pub.dartlang.org/uuid
+  version: 2.0.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: examples/pubspec.lock
+  detection_source: packages/graphql/pubspec.yaml
+  last_updated_by: Zino Hofmann
+  last_updated_on: 2019-04-21 08:02:46.000000000 Z
