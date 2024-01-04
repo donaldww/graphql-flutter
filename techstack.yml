@@ -1,7 +1,8 @@
 repo_name: donaldww/graphql-flutter
 report_id: e578f35740addb38c157bdc3d249358c
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T16:10:07+00:00'
+timestamp: '2024-01-04T15:02:34+00:00'
 requested_by: micimize
 provider: github
 branch: master
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1646/Twitter-02.png
+  detection_source_url: https://github.com/donaldww/graphql-flutter
   detection_source: Repo Metadata
 - name: Java
   description: A concurrent, class-based, object-oriented, language specifically designed
@@ -26,6 +28,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/donaldww/graphql-flutter
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -36,6 +39,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/donaldww/graphql-flutter/blob/master/packages/graphql/pubspec.yaml
   detection_source: packages/graphql/pubspec.yaml
   last_updated_by: Zino Hofmann
   last_updated_on: 2019-04-30 07:59:59.000000000 Z
@@ -48,6 +52,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1008/xcode.png
+  detection_source_url: https://github.com/donaldww/graphql-flutter
   detection_source: Repo Metadata
 - name: Ruby
   description: A dynamic, interpreted, open source programming language with a focus
@@ -58,6 +63,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/donaldww/graphql-flutter
   detection_source: Repo Metadata
 - name: Android SDK
   description: An SDK that provides you the API libraries and developer tools necessary
@@ -69,7 +75,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1010/m8jf0po4imu8t5eemjdd.png
-  detection_source_url: packages/graphql_flutter/example/android/app/build.gradle
+  detection_source_url: https://github.com/donaldww/graphql-flutter/blob/master/packages/graphql_flutter/example/android/app/build.gradle
   detection_source: packages/graphql_flutter/example/android/app/build.gradle
   last_updated_by: Zino Hofmann
   last_updated_on: 2018-06-16 15:21:13.000000000 Z
@@ -82,7 +88,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Cross-Platform Mobile Development
   image_url: https://img.stackshare.io/service/7180/flutter-mark-square-100.png
-  detection_source: packages/graphql_flutter/pubspec.yaml
+  detection_source_url: https://github.com/donaldww/graphql-flutter/blob/master/examples/starwars/pubspec.yaml
+  detection_source: examples/starwars/pubspec.yaml
   last_updated_by: micimize
   last_updated_on: 2019-05-20 22:01:06.000000000 Z
 - name: CircleCI
@@ -93,6 +100,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg
+  detection_source_url: https://github.com/donaldww/graphql-flutter/blob/master/.circleci/config.yml
   detection_source: ".circleci/config.yml"
   last_updated_by: Zino Hofmann
   last_updated_on: 2019-04-30 07:59:59.000000000 Z
@@ -104,6 +112,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/donaldww/graphql-flutter
   detection_source: Repo Metadata
 - name: Gradle
   description: A powerful build system for the JVM
@@ -114,7 +123,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Java Build Tools
   image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
-  detection_source: packages/graphql_flutter/example/android/gradlew.bat
+  detection_source_url: https://github.com/donaldww/graphql-flutter/blob/master/examples/starwars/android/app/build.gradle
+  detection_source: examples/starwars/android/app/build.gradle
   last_updated_by: micimize
   last_updated_on: 2019-05-20 17:35:34.000000000 Z
 - name: npm
@@ -125,6 +135,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/donaldww/graphql-flutter/blob/master/packages/graphql/pubspec.yaml
   detection_source: packages/graphql/pubspec.yaml
   last_updated_by: Zino Hofmann
   last_updated_on: 2018-06-08 11:59:11.000000000 Z
@@ -137,7 +148,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Operating Systems
   image_url: https://img.stackshare.io/service/9586/ZvmtaSXW_400x400.jpg
-  detection_source_url: packages/graphql_flutter/example/android/app/build.gradle
+  detection_source_url: https://github.com/donaldww/graphql-flutter/blob/master/packages/graphql_flutter/example/android/app/build.gradle
   detection_source: packages/graphql_flutter/example/android/app/build.gradle
   last_updated_by: Zino Hofmann
   last_updated_on: 2018-06-16 15:21:13.000000000 Z
@@ -149,6 +160,7 @@ tools:
   category: Libraries
   sub_category: CocoaPods Packages
   image_url: https://img.stackshare.io/service/2426/e1cbdef9d4b11484049a033886578e54_400x400.png
+  detection_source_url: https://github.com/donaldww/graphql-flutter/blob/master/examples/starwars/ios/Podfile.lock
   detection_source: examples/starwars/ios/Podfile.lock
   last_updated_by: micimize
   last_updated_on: 2019-05-20 17:35:34.000000000 Z
@@ -157,7 +169,8 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/5477/no-img-open-source.png
-  detection_source: packages/graphql_flutter/pubspec.yaml
+  detection_source_url: https://github.com/donaldww/graphql-flutter/blob/master/packages/graphql/pubspec.yaml
+  detection_source: packages/graphql/pubspec.yaml
   last_updated_by: Zino Hofmann
   last_updated_on: 2019-04-30 07:59:59.000000000 Z
 - name: args
@@ -170,7 +183,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: examples/pubspec.lock
+  detection_source_url: https://github.com/donaldww/graphql-flutter/blob/master/examples/pubspec.lock
   detection_source: packages/graphql/example/pubspec.yaml
   last_updated_by: Maina Wycliffe
   last_updated_on: 2019-05-01 00:43:00.000000000 Z
@@ -183,7 +196,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: examples/pubspec.lock
+  detection_source_url: https://github.com/donaldww/graphql-flutter/blob/master/examples/pubspec.lock
   detection_source: packages/graphql_flutter/example/pubspec.yaml
   last_updated_by: Zino Hofmann
   last_updated_on: 2018-06-16 15:21:13.000000000 Z
@@ -196,8 +209,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: examples/pubspec.lock
-  detection_source: packages/graphql_flutter/pubspec.yaml
+  detection_source_url: https://github.com/donaldww/graphql-flutter/blob/master/examples/pubspec.lock
+  detection_source: examples/starwars/pubspec.yaml
   last_updated_by: micimize
   last_updated_on: 2019-05-20 22:01:06.000000000 Z
 - name: graphql
@@ -209,8 +222,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: examples/pubspec.lock
-  detection_source: packages/graphql_flutter/pubspec.yaml
+  detection_source_url: https://github.com/donaldww/graphql-flutter/blob/master/examples/pubspec.lock
+  detection_source: examples/starwars/pubspec.yaml
   last_updated_by: micimize
   last_updated_on: 2019-05-20 22:01:06.000000000 Z
 - name: graphql_flutter
@@ -222,8 +235,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: examples/pubspec.lock
-  detection_source: packages/graphql_flutter/example/pubspec.yaml
+  detection_source_url: https://github.com/donaldww/graphql-flutter/blob/master/examples/pubspec.lock
+  detection_source: examples/starwars/pubspec.yaml
   last_updated_by: micimize
   last_updated_on: 2019-05-20 22:01:06.000000000 Z
 - name: graphql_parser
@@ -235,7 +248,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: examples/pubspec.lock
+  detection_source_url: https://github.com/donaldww/graphql-flutter/blob/master/examples/pubspec.lock
   detection_source: packages/graphql/pubspec.yaml
   last_updated_by: Zino Hofmann
   last_updated_on: 2019-04-30 07:59:59.000000000 Z
@@ -248,7 +261,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: examples/pubspec.lock
+  detection_source_url: https://github.com/donaldww/graphql-flutter/blob/master/examples/pubspec.lock
   detection_source: examples/starwars/pubspec.yaml
   last_updated_by: micimize
   last_updated_on: 2019-05-20 22:01:06.000000000 Z
@@ -261,7 +274,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: examples/pubspec.lock
+  detection_source_url: https://github.com/donaldww/graphql-flutter/blob/master/examples/pubspec.lock
   detection_source: packages/graphql/pubspec.yaml
   last_updated_by: micimize
   last_updated_on: 2019-04-27 18:33:08.000000000 Z
@@ -281,7 +294,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: examples/pubspec.lock
+  detection_source_url: https://github.com/donaldww/graphql-flutter/blob/master/examples/pubspec.lock
   detection_source: packages/graphql/pubspec.yaml
   last_updated_by: micimize
   last_updated_on: 2019-04-27 18:33:08.000000000 Z
@@ -295,8 +308,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: examples/pubspec.lock
-  detection_source: packages/graphql_flutter/pubspec.yaml
+  detection_source_url: https://github.com/donaldww/graphql-flutter/blob/master/examples/pubspec.lock
+  detection_source: packages/graphql/pubspec.yaml
   last_updated_by: Zino Hofmann
   last_updated_on: 2018-09-01 22:49:11.000000000 Z
 - name: mime
@@ -308,7 +321,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: examples/pubspec.lock
+  detection_source_url: https://github.com/donaldww/graphql-flutter/blob/master/examples/pubspec.lock
   detection_source: packages/graphql/pubspec.yaml
   last_updated_by: TruongSinh Tran-Nguyen
   last_updated_on: 2019-03-27 07:21:47.000000000 Z
@@ -321,8 +334,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: packages/graphql/pubspec.lock
-  detection_source: packages/graphql_flutter/pubspec.yaml
+  detection_source_url: https://github.com/donaldww/graphql-flutter/blob/master/packages/graphql/pubspec.lock
+  detection_source: packages/graphql/pubspec.yaml
   last_updated_by: TruongSinh Tran-Nguyen
   last_updated_on: 2019-03-27 02:34:50.000000000 Z
 - name: path
@@ -334,8 +347,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: examples/pubspec.lock
-  detection_source: packages/graphql_flutter/pubspec.yaml
+  detection_source_url: https://github.com/donaldww/graphql-flutter/blob/master/examples/pubspec.lock
+  detection_source: packages/graphql/pubspec.yaml
   last_updated_by: TruongSinh Tran-Nguyen
   last_updated_on: 2019-03-27 07:21:47.000000000 Z
 - name: path_provider
@@ -348,7 +361,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: examples/pubspec.lock
+  detection_source_url: https://github.com/donaldww/graphql-flutter/blob/master/examples/pubspec.lock
   detection_source: packages/graphql_flutter/pubspec.yaml
   last_updated_by: micimize
   last_updated_on: 2019-05-20 17:35:34.000000000 Z
@@ -362,8 +375,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: examples/pubspec.lock
-  detection_source: packages/graphql_flutter/pubspec.yaml
+  detection_source_url: https://github.com/donaldww/graphql-flutter/blob/master/examples/pubspec.lock
+  detection_source: packages/graphql/pubspec.yaml
   last_updated_by: dbrb
   last_updated_on: 2019-05-18 14:24:00.000000000 Z
 - name: test
@@ -375,8 +388,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: examples/pubspec.lock
-  detection_source: packages/graphql_flutter/pubspec.yaml
+  detection_source_url: https://github.com/donaldww/graphql-flutter/blob/master/examples/pubspec.lock
+  detection_source: packages/graphql/pubspec.yaml
   last_updated_by: Zino Hofmann
   last_updated_on: 2019-04-30 07:59:59.000000000 Z
 - name: test_coverage
@@ -388,7 +401,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: packages/graphql/pubspec.lock
+  detection_source_url: https://github.com/donaldww/graphql-flutter/blob/master/packages/graphql/pubspec.lock
   detection_source: packages/graphql/pubspec.yaml
   last_updated_by: Zino Hofmann
   last_updated_on: 2019-04-30 07:59:59.000000000 Z
@@ -401,7 +414,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: examples/pubspec.lock
+  detection_source_url: https://github.com/donaldww/graphql-flutter/blob/master/examples/pubspec.lock
   detection_source: packages/graphql/pubspec.yaml
   last_updated_by: Zino Hofmann
   last_updated_on: 2019-04-21 08:02:46.000000000 Z
